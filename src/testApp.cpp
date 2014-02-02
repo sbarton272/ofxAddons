@@ -38,9 +38,10 @@ void testApp::update(){
 
     vidGrabber.update();
 
+    // ofGetDay();
+
     if (bTakePic) {
-        // test save pic
-        faceImg.grabScreen(VID_H_OFFSET, VID_W_OFFSET, VID_WIDTH, VID_HEIGHT);
+        faceImg.setFromPixels(vidGrabber.getPixelsRef());
 
         faceImg.saveImage(IMG_FILENAME);
         cout << "saved " << IMG_FILENAME.c_str() << '\n';
