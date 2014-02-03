@@ -40,7 +40,6 @@ void testApp::setup(){
 
     // take a picture if none taken today, record the date in settings
     XML.setValue("//DATE", todayDate);
-    XML.save(SETTINGS_FILE);
     bTakePic = false;
 
     // reset window size to fit video
@@ -94,8 +93,7 @@ void testApp::update(){
     }
 
     // take picture
-    //if (bTakePic) {
-    if (false) {
+    if (bTakePic) {
         img.setFromPixels(cam.getPixelsRef());
 
         string fileName = IMG_FILENAME + '-' + todayDate + '.' + ofToString(IMG_FILEEXT);
@@ -103,6 +101,7 @@ void testApp::update(){
         cout << "saved " << fileName.c_str() << endl;
 
         // photo taken so exit
+        XML.save(SETTINGS_FILE);
         std::exit(0);
     }
 }
