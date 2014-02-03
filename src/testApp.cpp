@@ -41,10 +41,10 @@ void testApp::setup(){
     // take a picture if none taken today, record the date in settings
     XML.setValue("//DATE", todayDate);
     XML.save(SETTINGS_FILE);
-    bTakePic = true;
+    bTakePic = false;
 
     // reset window size to fit video
-    ofSetWindowShape(2*CAM_W_OFFSET + CAM_WIDTH, 2*CAM_H_OFFSET + CAM_HEIGHT);
+    ofSetWindowShape(WINDOW_WIDTH, WINDOW_HEIGHT);
 
     // set-up camera
     if (DEBUG) { printAllCameras(); }
@@ -70,27 +70,55 @@ void testApp::update(){
         finder.update(cam);
     }
 
+    if(finder.size() > 0) {
+        // assume only one object detected which is the face
+        ofRectangle faceBox = finder.getObjectSmoothed(0);
+
+        // determine if face is centered and large enough
+        ofPoint faceCntr = faceBox.getCenter();
+
+        float windowCntrX = (float)(WINDOW_WIDTH / 2);
+        float windowCntrY = (float)(WINDOW_HEIGHT / 2);
+        float cntrDist = ofDist(windowCntrX, windowCntrY, faceCntr.x, faceCntr.y);
+
+        if ( (cntrDist <= MAX_CENTERDIST) &&
+             (faceBox.getHeight() >= MIN_HEIGHT ) ) {
+            bTakePic = true;
+        } else {
+            bTakePic = false;
+        }
+
+    } else {
+        // nothing found so don't take pic
+        bTakePic = false;
+    }
+
     // take picture
-    if (bTakePic) {
+    //if (bTakePic) {
+    if (false) {
         img.setFromPixels(cam.getPixelsRef());
 
         string fileName = IMG_FILENAME + '-' + todayDate + '.' + ofToString(IMG_FILEEXT);
         img.saveImage(fileName);
         cout << "saved " << fileName.c_str() << endl;
 
-        bTakePic = false;
+        // photo taken so exit
+        std::exit(0);
     }
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
-    ofBackground(0);
+    if( bTakePic ) {
+        // pic not yet taken
+        ofBackground(100,255,100);
+    } else {
+        // pic taken, change color
+        ofBackground(0);
+    }
 
     cam.draw(CAM_H_OFFSET, CAM_W_OFFSET);
-
     finder.draw();
-    // face finder text highlighting
-    //ofDrawBitmapStringHighlight(ofToString(finder.size()), 10, 20);
 }
 
 //--------------------------------------------------------------

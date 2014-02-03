@@ -36,6 +36,10 @@ class testApp : public ofBaseApp{
 		const int CAM_W_OFFSET = 20;
 		const int CAM_WIDTH    = 640;
 		const int CAM_HEIGHT   = 480;
+		const int WINDOW_WIDTH = 2*CAM_W_OFFSET + CAM_WIDTH;
+		const int WINDOW_HEIGHT = 2*CAM_W_OFFSET + CAM_HEIGHT;
+		const int MAX_CENTERDIST = 10;
+		const int MIN_HEIGHT   = 200;
 		const int CAM_ID	   = 0;
 		static const string IMG_FILENAME;
 		static const string IMG_FILEEXT;
