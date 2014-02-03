@@ -1,34 +1,30 @@
 #include "testApp.h"
 
-const int VID_H_OFFSET = 20;
-const int VID_W_OFFSET = 20;
-const int VID_WIDTH    = 640;
-const int VID_HEIGHT   = 480;
-const string IMG_FILENAME = "test.png";
-
-
+using namespace ofxCv;
+using namespace cv;
 
 //--------------------------------------------------------------
 void testApp::setup(){
 
-    //we can now get back a list of devices.
-    vector<ofVideoDevice> devices = vidGrabber.listDevices();
+    // load config file and determine if the app should run
+    XML.load(SETTINGS_FILE);
 
-    for(int i = 0; i < devices.size(); i++){
-        cout << devices[i].id << ": " << devices[i].deviceName;
-        if( devices[i].bAvailable ){
-            cout << endl;
-        }else{
-            cout << " - unavailable " << endl;
-        }
-    }
+    // reset window size to fit video
+    ofSetWindowShape(2*CAM_W_OFFSET + CAM_WIDTH, 2*CAM_H_OFFSET + CAM_HEIGHT);
 
-    vidGrabber.setDeviceID(0);
-    vidGrabber.setDesiredFrameRate(60);
-    vidGrabber.initGrabber(VID_WIDTH, VID_HEIGHT);
+    // set-up camera
+    if (DEBUG) { printAllCameras(); }
+    cam.setDeviceID(CAM_ID);
+    cam.setDesiredFrameRate(60);
+    cam.initGrabber(CAM_WIDTH, CAM_HEIGHT);
+
+    // set-up face finder
+    finder.setup(FACE_SETTINGS);
+    finder.setPreset(ObjectFinder::Fast);
 
     ofSetVerticalSync(true);
 
+    // picture not taken yet
     bTakePic = false;
 
 }
@@ -36,15 +32,22 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
 
-    vidGrabber.update();
+    cam.update();
 
-    // ofGetDay();
+    // update face tracker
+    if(cam.isFrameNew()) {
+        finder.update(cam);
+    }
 
+    // take picture
     if (bTakePic) {
-        faceImg.setFromPixels(vidGrabber.getPixelsRef());
+        img.setFromPixels(cam.getPixelsRef());
 
-        faceImg.saveImage(IMG_FILENAME);
-        cout << "saved " << IMG_FILENAME.c_str() << '\n';
+        string fileName = IMG_FILENAME + '-' + ofToString(ofGetYear()) +
+                          '-' + ofToString(ofGetMonth()) + '-' +
+                          ofToString(ofGetDay()) + '.' + ofToString(IMG_FILEEXT);
+        img.saveImage(fileName);
+        cout << "saved " << fileName.c_str() << endl;
 
         bTakePic = false;
     }
@@ -54,13 +57,17 @@ void testApp::update(){
 void testApp::draw(){
     ofBackground(0);
 
-    vidGrabber.draw(VID_H_OFFSET, VID_W_OFFSET);
+    cam.draw(CAM_H_OFFSET, CAM_W_OFFSET);
+
+    finder.draw();
+    // face finder text highlighting
+    //ofDrawBitmapStringHighlight(ofToString(finder.size()), 10, 20);
 }
 
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 
-    cout << "key: " << key << '\n';
+    cout << "key: " << key << endl;
     bTakePic = true;
 }
 
@@ -101,5 +108,22 @@ void testApp::gotMessage(ofMessage msg){
 
 //--------------------------------------------------------------
 void testApp::dragEvent(ofDragInfo dragInfo){
+
+}
+
+//--------------------------------------------------------------
+// Print available cameras if in debug mode
+void testApp::printAllCameras(){
+
+    vector<ofVideoDevice> devices = cam.listDevices();
+
+    for(int i = 0; i < devices.size(); i++){
+        cout << devices[i].id << ": " << devices[i].deviceName;
+        if( devices[i].bAvailable ){
+            cout << endl;
+        }else{
+            cout << " - unavailable " << endl;
+        }
+    }
 
 }
