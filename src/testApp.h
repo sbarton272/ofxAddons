@@ -3,7 +3,7 @@
 #include "ofMain.h"
 #include "ofxCv.h"
 
-#define DEBUG true
+#define DEBUG false
 
 class testApp : public ofBaseApp{
 
@@ -29,6 +29,7 @@ class testApp : public ofBaseApp{
 		ofXml XML;
 
 		bool           bTakePic;
+		string		   todayDate;
 
 		// global constants
 		const int CAM_H_OFFSET = 20;
@@ -36,8 +37,8 @@ class testApp : public ofBaseApp{
 		const int CAM_WIDTH    = 640;
 		const int CAM_HEIGHT   = 480;
 		const int CAM_ID	   = 0;
-		const string IMG_FILENAME = "faces/face";
-		const string IMG_FILEEXT = "png";
-		const string SETTINGS_FILE = "settings.xml";
-		const string FACE_SETTINGS = "haarcascade_frontalface_alt2.xml";
+		static const string IMG_FILENAME;
+		static const string IMG_FILEEXT;
+		static const string SETTINGS_FILE;
+		static const string FACE_SETTINGS;
 };
