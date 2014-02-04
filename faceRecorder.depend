@@ -2207,6 +2207,408 @@
 	"ofMain.h"
 	"ofxCv.h"
 
-1391460946 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\apps\myapps\facerecorder\src\testapp.cpp
+1391465745 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\apps\myapps\facerecorder\src\testapp.cpp
 	"testApp.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxui2dgraph.cpp
+	"ofxUI2DGraph.h"
+	"ofxUI.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxui2dgraph.h
+	"ofxUIWidget.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwidget.h
+	"ofxUIWrapper.h"
+	"ofxXmlSettings.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwrapper.h
+	"ofxUIOFWrapper.h"
+	"ofxUIUtils.h"
+	"ofxUIRectangle.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiofwrapper.h
+	"ofMain.h"
+	"ofPoint.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiutils.h
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuirectangle.h
+	"ofxUIOFWrapper.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxui.h
+	"ofxUIDefines.h"
+	"ofxUIWidget.h"
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIEventArgs.h"
+	"ofxUIWidgets.h"
+	"ofxUICanvas.h"
+	"ofxUIScrollableCanvas.h"
+	"ofxUISuperCanvas.h"
+	"ofxUITabBar.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuidefines.h
+	"ofxXmlSettings.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwidgetwithlabel.h
+	"ofxUIWidget.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuieventargs.h
+	"ofxUIWrapper.h"
+	"ofxUISlider.h"
+	"ofxUIWidget.h"
+	"ofxUIButton.h"
+	"ofxUIToggle.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuislider.h
+	"ofxUIWidgetWithLabel.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuibutton.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitoggle.h
+	"ofxUIButton.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwidgets.h
+	"ofxUILabel.h"
+	"ofxUIFPS.h"
+	"ofxUISlider.h"
+	"ofxUIImageSlider.h"
+	"ofxUIFPSSlider.h"
+	"ofxUIMinimalSlider.h"
+	"ofxUICircleSlider.h"
+	"ofxUIBiLabelSlider.h"
+	"ofxUIRangeSlider.h"
+	"ofxUIToggle.h"
+	"ofxUIButton.h"
+	"ofxUIMultiImageButton.h"
+	"ofxUIMultiImageToggle.h"
+	"ofxUIRadio.h"
+	"ofxUI2DPad.h"
+	"ofxUI2DGraph.h"
+	"ofxUITextInput.h"
+	"ofxUITextArea.h"
+	"ofxUINumberDialer.h"
+	"ofxUILabelButton.h"
+	"ofxUILabelToggle.h"
+	"ofxUIDragableLabelButton.h"
+	"ofxUISortableList.h"
+	"ofxUIToggleMatrix.h"
+	"ofxUIImageButton.h"
+	"ofxUIImageToggle.h"
+	"ofxUIRotarySlider.h"
+	"ofxUISpacer.h"
+	"ofxUIDropDownList.h"
+	"ofxUIWaveform.h"
+	"ofxUISpectrum.h"
+	"ofxUIMovingGraph.h"
+	"ofxUIValuePlotter.h"
+	"ofxUIImage.h"
+	"ofxUIBaseDraws.h"
+	"ofxUIImageSampler.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuilabel.h
+	"ofxUIWidget.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuifps.h
+	"ofxUIWidgetWithLabel.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimageslider.h
+	"ofxUISlider.h"
+	"ofxUIRectangle.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuifpsslider.h
+	"ofxUISlider.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiminimalslider.h
+	"ofxUISlider.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuicircleslider.h
+	"ofxUISlider.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuibilabelslider.h
+	"ofxUISlider.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuirangeslider.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuimultiimagebutton.h
+	"ofxUIButton.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuimultiimagetoggle.h
+	"ofxUIToggle.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiradio.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIDefines.h"
+	"ofxUIToggle.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxui2dpad.h
+	"ofxUIWidgetWithLabel.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitextinput.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitextarea.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuinumberdialer.h
+	"ofxUIWidgetWithLabel.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuilabelbutton.h
+	"ofxUIButton.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuilabeltoggle.h
+	"ofxUIToggle.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuidragablelabelbutton.h
+	"ofxUILabelButton.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuisortablelist.h
+	"ofxUIButton.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitogglematrix.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIToggle.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimagebutton.h
+	"ofxUIButton.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimagetoggle.h
+	"ofxUIToggle.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuirotaryslider.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuispacer.h
+	"ofxUIWidget.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuidropdownlist.h
+	"ofxUIToggle.h"
+	"ofxUILabelToggle.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwaveform.h
+	"ofxUIWidget.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuispectrum.h
+	"ofxUIWidget.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuimovinggraph.h
+	"ofxUIWidget.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuivalueplotter.h
+	"ofxUIWidget.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimage.h
+	"ofxUIWidgetWithLabel.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuibasedraws.h
+	"ofxUIWidgetWithLabel.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimagesampler.h
+	"ofxUIImage.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuicanvas.h
+	"ofxUIWidget.h"
+	"ofxUIDefines.h"
+	"ofxUIEventArgs.h"
+	"ofxUIWidgets.h"
+	"ofxUISlider.h"
+	<vector>
+	<map>
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiscrollablecanvas.h
+	"ofxUICanvas.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuisupercanvas.h
+	"ofxUICanvas.h"
+	"ofxUIDefines.h"
+
+1391017542 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitabbar.h
+	"ofxUICanvas.h"
+	"ofxUIScrollableCanvas.h"
+	"ofxUIToggle.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxui2dpad.cpp
+	"ofxUI2DPad.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuibasedraws.cpp
+	"ofxUIBaseDraws.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuibilabelslider.cpp
+	"ofxUIBiLabelSlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuibutton.cpp
+	"ofxUIButton.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuicanvas.cpp
+	"ofxUICanvas.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuicircleslider.cpp
+	"ofxUICircleSlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuidragablelabelbutton.cpp
+	"ofxUIDragableLabelButton.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuidropdownlist.cpp
+	"ofxUIDropDownList.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuieventargs.cpp
+	"ofxUIEventArgs.h"
+	"ofxUIWidget.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuifps.cpp
+	"ofxUIFPS.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuifpsslider.cpp
+	"ofxUIFPSSlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimage.cpp
+	"ofxUIImage.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimagebutton.cpp
+	"ofxUIImageButton.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimagesampler.cpp
+	"ofxUIImageSampler.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimageslider.cpp
+	"ofxUIImageSlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiimagetoggle.cpp
+	"ofxUIImageToggle.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuilabel.cpp
+	"ofxUILabel.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuilabelbutton.cpp
+	"ofxUILabelButton.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuilabeltoggle.cpp
+	"ofxUILabelToggle.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiminimalslider.cpp
+	"ofxUIMinimalSlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuimovinggraph.cpp
+	"ofxUIMovingGraph.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuimultiimagebutton.cpp
+	"ofxUIMultiImageButton.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuimultiimagetoggle.cpp
+	"ofxUIMultiImageToggle.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuinumberdialer.cpp
+	"ofxUINumberDialer.h"
+	"ofxUI.h"
+	<math.h>
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiradio.cpp
+	"ofxUIRadio.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuirangeslider.cpp
+	"ofxUIRangeSlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuirectangle.cpp
+	"ofxUIRectangle.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuirotaryslider.cpp
+	"ofxUIRotarySlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiscrollablecanvas.cpp
+	"ofxUIScrollableCanvas.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuislider.cpp
+	"ofxUISlider.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuisortablelist.cpp
+	"ofxUISortableList.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuispacer.cpp
+	"ofxUISpacer.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuispectrum.cpp
+	"ofxUISpectrum.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuisupercanvas.cpp
+	"ofxUISuperCanvas.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitabbar.cpp
+	"ofxUITabBar.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitextarea.cpp
+	"ofxUITextArea.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitextinput.cpp
+	"ofxUITextInput.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitoggle.cpp
+	"ofxUIToggle.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuitogglematrix.cpp
+	"ofxUIToggleMatrix.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuivalueplotter.cpp
+	"ofxUIValuePlotter.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwaveform.cpp
+	"ofxUIWaveform.h"
+	"ofxUI.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwidget.cpp
+	"ofxUI.h"
+	"ofxUIWidget.h"
+
+1391017542 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\addons\ofxui\src\ofxuiwidgetwithlabel.cpp
+	"ofxUIWidgetWithLabel.h"
+	"ofxUILabel.h"
 
