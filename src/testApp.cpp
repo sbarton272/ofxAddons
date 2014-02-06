@@ -12,6 +12,21 @@ const string testApp::FACE_SETTINGS = "haarcascade_frontalface_alt2.xml";
 //--------------------------------------------------------------
 void testApp::setup(){
 
+    gui = new ofxUICanvas();
+	gui->addLabel("BUTTONS/TOGGLES", OFX_UI_FONT_LARGE);
+    gui->addSpacer();
+	gui->addLabel("BUTTONS");
+    gui->addButton("B1", false, 44, 44);
+    gui->addButton("B2", false);
+    gui->addSpacer();
+	gui->addLabel("TOGGLES");
+    gui->addToggle("T1", false, 44, 44);
+    gui->addToggle("T2", false);
+    gui->addSpacer();
+    ofAddListener(gui->newGUIEvent,this,&testApp::guiEvent);
+    gui->autoSizeToFitWidgets();
+    gui->toggleVisible();
+
     // load config file and determine if the app should run
     if( !XML.load(SETTINGS_FILE) ){
         // create new
@@ -182,4 +197,62 @@ void testApp::printAllCameras(){
         }
     }
 
+}
+
+//----------------------------------------------------------------
+void testApp::guiEvent(ofxUIEventArgs &e)
+{
+	string name = e.widget->getName();
+	int kind = e.widget->getKind();
+
+    if(kind == OFX_UI_WIDGET_BUTTON)
+    {
+        ofxUIButton *button = (ofxUIButton *) e.widget;
+        cout << name << "\t value: " << button->getValue() << endl;
+    }
+    else if(kind == OFX_UI_WIDGET_TOGGLE)
+    {
+        ofxUIToggle *toggle = (ofxUIToggle *) e.widget;
+        cout << name << "\t value: " << toggle->getValue() << endl;
+    }
+    else if(kind == OFX_UI_WIDGET_IMAGEBUTTON)
+    {
+        ofxUIImageButton *button = (ofxUIImageButton *) e.widget;
+        cout << name << "\t value: " << button->getValue() << endl;
+    }
+    else if(kind == OFX_UI_WIDGET_IMAGETOGGLE)
+    {
+        ofxUIImageToggle *toggle = (ofxUIImageToggle *) e.widget;
+        cout << name << "\t value: " << toggle->getValue() << endl;
+    }
+	else if(kind == OFX_UI_WIDGET_LABELBUTTON)
+    {
+        ofxUILabelButton *button = (ofxUILabelButton *) e.widget;
+        cout << name << "\t value: " << button->getValue() << endl;
+    }
+    else if(kind == OFX_UI_WIDGET_LABELTOGGLE)
+    {
+        ofxUILabelToggle *toggle = (ofxUILabelToggle *) e.widget;
+        cout << name << "\t value: " << toggle->getValue() << endl;
+    }
+	else if(name == "B1")
+	{
+        ofxUIButton *button = (ofxUIButton *) e.widget;
+        cout << "value: " << button->getValue() << endl;
+	}
+    else if(name == "B2")
+    {
+        ofxUIButton *button = (ofxUIButton *) e.widget;
+        cout << "value: " << button->getValue() << endl;
+    }
+    else if(name == "T1")
+    {
+        ofxUIToggle *toggle = (ofxUIToggle *) e.widget;
+        cout << "value: " << toggle->getValue() << endl;
+    }
+    else if(name == "T2")
+    {
+        ofxUIToggle *toggle = (ofxUIToggle *) e.widget;
+        cout << "value: " << toggle->getValue() << endl;
+    }
 }

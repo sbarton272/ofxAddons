@@ -2203,9 +2203,10 @@
 	"ofMain.h"
 	"testApp.h"
 
-1391465147 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\apps\myapps\facerecorder\src\testapp.h
+1391699694 c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\apps\myapps\facerecorder\src\testapp.h
 	"ofMain.h"
 	"ofxCv.h"
+	"ofxUI.h"
 
 1391465745 source:c:\program files (x86)\openframeworks\of_v0.8.0_win_cb_release\apps\myapps\facerecorder\src\testapp.cpp
 	"testApp.h"

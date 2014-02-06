@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxCv.h"
+#include "ofxUI.h"
 
 #define DEBUG false
 
@@ -27,6 +28,8 @@ class testApp : public ofBaseApp{
 		ofImage 	   img;
 		ofxCv::ObjectFinder finder;
 		ofXml XML;
+		ofxUICanvas *gui;
+        void guiEvent(ofxUIEventArgs &e);
 
 		bool           bTakePic;
 		string		   todayDate;
